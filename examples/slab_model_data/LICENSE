@@ -1,0 +1,16 @@
+Impulse-response records of a numerical model of a concrete slab with a
+built-in defect: the 1788 trace files in this folder and catalog.csv.
+
+Copyright (c) 2026 Ilya Lozovsky, Ruslan Zhostkov, Aleksei Churkin
+
+This dataset is licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0). To view a copy of the license, visit
+https://creativecommons.org/licenses/by/4.0/
+
+Please credit the dataset as:
+Lozovsky I., Zhostkov R., Churkin A. (2026). Impulse-response records of a
+numerical model of a concrete slab with a built-in defect [dataset].
+Distributed with SlabNIRT, https://github.com/ilozovsky/SlabNIRT
+
+The SlabNIRT software itself is licensed separately under the BSD-3-Clause
+license (see the LICENSE file at the root of the distribution).

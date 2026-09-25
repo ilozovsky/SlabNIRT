@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use SlabNIRT, please cite it as below."
+type: software
+title: SlabNIRT
+abstract: "Python package for the processing, analysis, visualization and spatial mapping of normalized impulse response test data acquired from foundation slabs, tunnel linings and other plate-like concrete structures."
+authors:
+  - family-names: Lozovsky
+    given-names: Ilya
+    orcid: "https://orcid.org/0000-0001-9298-6513"
+    email: i.n.lozovsky@gmail.com
+    affiliation: "Geoelectromagnetic Research Centre, Branch of Schmidt Institute of Physics of the Earth, Russian Academy of Sciences, Troitsk, Moscow, Russia"
+version: 0.7.0rc1
+date-released: 2026-09-25
+license: BSD-3-Clause
+repository-code: "https://github.com/ilozovsky/SlabNIRT"
+keywords:
+  - normalized impulse response testing
+  - non-destructive testing
+  - foundation slabs
+  - tunnel linings

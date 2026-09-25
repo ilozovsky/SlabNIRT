@@ -1,0 +1,7 @@
+# The sdist ships the test suite; setuptools includes tests/test*.py by itself
+# but not the shared fixtures in conftest.py. The example workflow and its
+# dataset are shipped too, so the sdist's tests can run the example.
+include tests/conftest.py
+include CITATION.cff
+include examples/slab_model_data/LICENSE
+recursive-include examples *.py *.csv *.txt
