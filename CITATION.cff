@@ -9,8 +9,8 @@ authors:
     orcid: "https://orcid.org/0000-0001-9298-6513"
     email: i.n.lozovsky@gmail.com
     affiliation: "Geoelectromagnetic Research Centre, Branch of Schmidt Institute of Physics of the Earth, Russian Academy of Sciences, Troitsk, Moscow, Russia"
-version: 0.7.0rc1
-date-released: 2026-09-25
+version: 0.7.0
+date-released: 2026-09-26
 license: BSD-3-Clause
 repository-code: "https://github.com/ilozovsky/SlabNIRT"
 keywords:

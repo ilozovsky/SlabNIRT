@@ -1,6 +1,6 @@
 """Normalized Impulse Response Testing analysis tools."""
 
-__version__ = "0.7.0rc1"
+__version__ = "0.7.0"
 
 from ._logging import configure_logging
 from .analysis import average_attributes

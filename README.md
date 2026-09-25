@@ -70,23 +70,23 @@ model examples; see [References](#references).
 
 ## Installation
 
-Requires Python 3.12 or newer. Download or clone this repository, then run
-from its root directory:
+Requires Python 3.12 or newer.
 
 ```sh
-python -m pip install .
+python -m pip install slabnirt
 ```
 
 To draw boundaries or other map overlays from shapefiles, install the
 optional GIS dependency instead:
 
 ```sh
-python -m pip install ".[shapefiles]"
+python -m pip install "slabnirt[shapefiles]"
 ```
 
 ## Quick start
 
-Run the bundled example from the repository root:
+The example and its dataset are in this repository, not in the installed
+package. Download or clone the repository and run from its root directory:
 
 ```sh
 python examples/slab_model_workflow.py
@@ -100,9 +100,9 @@ The example uses simulated vertical-velocity records for a
 2.8 × 1.9 × 0.17 m concrete slab resting on sand, with an air void under its
 center. The dataset contains 1788 records at 462 test points. The model and
 processing settings are described in
-[the example script](examples/slab_model_workflow.py).
+[the example script](https://github.com/ilozovsky/SlabNIRT/blob/main/examples/slab_model_workflow.py).
 
-![Normalized signal energy over the slab](docs/slab_model_norm_signal_energy.png)
+![Normalized signal energy over the slab](https://raw.githubusercontent.com/ilozovsky/SlabNIRT/main/docs/slab_model_norm_signal_energy.png)
 
 The colors show how far normalized signal energy lies above or below the
 survey median. One color-scale unit is 1.4826 × MAD, a measure of spread
@@ -111,11 +111,13 @@ modeled void.
 
 The model is by Ilya Lozovsky, Ruslan Zhostkov and Aleksei Churkin; a paper
 describing it is in preparation. The bundled records are licensed under
-[CC BY 4.0](examples/slab_model_data/LICENSE).
+[CC BY 4.0](https://github.com/ilozovsky/SlabNIRT/blob/main/examples/slab_model_data/LICENSE).
 
 ## Using your own records
 
-Adapt [the example workflow](examples/slab_model_workflow.py) by supplying
+Adapt
+[the example workflow](https://github.com/ilozovsky/SlabNIRT/blob/main/examples/slab_model_workflow.py)
+by supplying
 **record files and a coordinate catalog**. The package accepts velocity or
 acceleration records. To analyze velocity from acceleration measurements,
 set `integrate_times=1` in `preprocess_traces`; velocity records need no
@@ -201,8 +203,8 @@ settings.
 
 ## Citation and license
 
-To cite SlabNIRT, use [CITATION.cff](CITATION.cff).
-The package is licensed under [BSD-3-Clause](LICENSE).
+To cite SlabNIRT, use [CITATION.cff](https://github.com/ilozovsky/SlabNIRT/blob/main/CITATION.cff).
+The package is licensed under [BSD-3-Clause](https://github.com/ilozovsky/SlabNIRT/blob/main/LICENSE).
 
 ## References
 
